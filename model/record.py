@@ -1,5 +1,5 @@
 class Record:
-    def __init__(self, user_id: str, date, comment: str) -> None:
+    def __init__(self, user_id: str, time, comment: str) -> None:
         self.user_id = user_id
-        self.date = date
+        self.time = time
         self.comment = comment
